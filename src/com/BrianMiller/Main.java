@@ -18,5 +18,8 @@ public class Main {
         System.out.println(person2.getName() + " " + person2.getCreditLimit() + " " + person2.getEmailAddress());
         System.out.println(person3.getName() + " " + person3.getCreditLimit() + " " + person3.getEmailAddress());
         System.out.println("Changed git info");
+
+        Dog myDog = new Dog("Fiddo",2,40, 2, 4, 1,26, "Short");
+        System.out.println("Brain " + myDog.getBrain());
     }
 }
