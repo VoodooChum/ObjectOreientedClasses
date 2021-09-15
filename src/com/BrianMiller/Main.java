@@ -17,6 +17,5 @@ public class Main {
         System.out.println(person1.getName() + " " + person1.getCreditLimit() + " " + person1.getEmailAddress());
         System.out.println(person2.getName() + " " + person2.getCreditLimit() + " " + person2.getEmailAddress());
         System.out.println(person3.getName() + " " + person3.getCreditLimit() + " " + person3.getEmailAddress());
-        System.out.println("Changed git info");
     }
 }
