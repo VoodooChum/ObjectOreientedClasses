@@ -22,5 +22,7 @@ public class Main {
         Dog myDog = new Dog("Fiddo",2,40, 2, 4, 1,26, "Short");
         System.out.println(myDog.getName() + " has " + myDog.getBrain() + " brain");
         myDog.eat();
+        Dog herDog = new Dog("Nella", 3, 60, 2, 4, 1, 26, "Long");
+        herDog.eat();
     }
 }
