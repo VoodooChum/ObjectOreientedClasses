@@ -24,5 +24,7 @@ public class Main {
         myDog.eat();
         Dog herDog = new Dog("Nella", 3, 60, 2, 4, 1, 26, "Long");
         herDog.eat();
+        GermanShepard herBigDog = new GermanShepard("Big Girl",1,1,50,60);
+        herBigDog.eat();
     }
 }
