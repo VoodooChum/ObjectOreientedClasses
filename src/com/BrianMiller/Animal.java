@@ -16,7 +16,7 @@ public class Animal {
     }
 
     public void eat() {
-        System.out.println(name + " is eating");
+        System.out.println(name + " is eating.  This is call to Super");
     }
 
     public void move() {
